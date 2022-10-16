@@ -3,15 +3,15 @@ public class Main
 {
      public static void main(String[] args)
         {
-            Scanner sc = new Scanner(System.in);
+            Scanner s = new Scanner(System.in);
  
-            System.out.println("Enter the number of rows: ")
+            System.out.println("Enter the number of rows: ");
  
-            int rows = sc.nextInt();
+            int rows = s.nextInt();
              
-            for (int i=1; i<= rows ; i)
+            for (int i=1; i<= rows ; i++)
             {
-                for (int j = i; j < rows ; j++) 
+                for (int j = i; j < rows ; j++) {
                     System.out.print(" ");
                 }   
                 for (int k = 1; k <= (2*i -1) ;k++) {
@@ -24,6 +24,6 @@ public class Main
                 }
                 System.out.println("")
             }
-            sc.close();
+            s.close();
         }
     }
