@@ -9,9 +9,9 @@ public class Main
  
             int rows = sc.nextInt();
              
-            for (int i=1; i<= rows ; i)
+            for (int i=1; i<= rows ; i++)
             {
-                for (int j = i; j < rows ; j++) 
+                for (int j = i; j < rows ; j++) {
                     System.out.print(" ");
                 }   
                 for (int k = 1; k <= (2*i -1) ;k++) {
@@ -22,7 +22,7 @@ public class Main
                         System.out.print(" ");
                     }
                 }
-                System.out.println("")
+                System.out.println("");
             }
             sc.close();
         }
